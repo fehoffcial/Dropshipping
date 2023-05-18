@@ -89,7 +89,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10%;
 }
 .contry{
     width: 70%;
@@ -98,21 +97,6 @@ body{
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-}
-.login{
-    display: flex;
-}
-.fa-user, .fa-cart-shopping{
-    font-size: 2.5rem;
-    color: #2051C6;
-    padding: 7px;
-    background-color: #d9d9d94b;
-    border: 1px solid transparent;
-    border-radius: 3px;
-}
-.fa-user{
-    font-size: 2.7rem;
-    margin: 0 30px;
 }
 .contry-us{
     width: 100px;
