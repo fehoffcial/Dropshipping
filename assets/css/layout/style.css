@@ -10,10 +10,6 @@ body{
     font-size: 1.4rem;
     font-weight: 400;
 }
-/* DISPLAY: none */
-.header-mobile{
-    display: none;
-}
 .header-layout{
     width: 100vw;
     height: 15vh;
