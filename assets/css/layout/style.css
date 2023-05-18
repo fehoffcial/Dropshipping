@@ -10,6 +10,7 @@ body{
     font-size: 1.4rem;
     font-weight: 400;
 }
+/* DISPLAY: none */
 .header-mobile{
     display: none;
 }
@@ -23,5 +24,8 @@ body{
 .layout-logo{
     min-width: 15%;
     height: 100%;
-    background-color: saddlebrown;
+    background-color:fuchsia ;
+}
+.header-layout-top{
+    display: flex;
 }
