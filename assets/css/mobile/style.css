@@ -11,6 +11,10 @@
         font-size: 1.4rem;
         font-weight: 400;
     }
+    /* Display: None */
+    .header-layout{
+        display: none;
+    }
     .header-mobile{
         width: 100vw;
         height: 110px;
