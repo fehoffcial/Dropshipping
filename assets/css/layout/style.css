@@ -80,6 +80,15 @@
     0% {  transform: scale(0.9);}
     100% { transform: scale(1);}
 }
+.color-blue{
+    color: #2051c6;
+    font-style: italic;
+}
+.color-red{
+    color: #E64E38;
+    font-style: italic;
+}
+
 .modal-close-btn{
     position: absolute;
     top: 15px;
