@@ -1,16 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html{
     font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    overscroll-behavior: contain;
+}
+*,*::after,*::before{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    font-style: normal;
+    overflow: hidden;
+    list-style: none;
+}
+/* Reset All Tag*/
+
+:root{
+    /* ! Colors */
+    --color-platinum: hsl(0,0,85);
+    --color-sapphire: hsl(222,72,45);
+    --color-cinnabar: hsl(8,78,56);
+    --color-picton-blue: hsl(196,100,44);
+    --color-black: #000000;
+    --color-opacity: #fcfcfc;
+    --color-description: #6b6b6b;
+    /* ? Tyrogrphy */
+    --fs-1: 1.563rem;
+    --fs-2: 1.375rem;
+    --fs-3: 1.25rem;
+    --fs-4: 1.125rem;
+    --fs-5: 1rem;
+    --fs-6: 0.938rem;
+    --fs-7: 0.875rem;
+    --fs-8: 0.813rem;
+    --fs-9: 0.75rem;
+    --fs-10: 0.688rem;
+    --fs-11: 0.625rem;
+    /* ! Weight */
+    --weight-300: 300;
+    --weight-400: 400;
+    --weight-500: 500;
+    --weight-600: 600;
+    --weight-700: 700;
+    /* ? Border-Radius */
+    --border-radius-md: 10px;
+    --border-radius-sm: 5px;
+    /* ! Transtion*/
+    --transtion-timing: 0.2s ease;
+
 }
 body{
-    width: 100vw;
-    height: 100vh;
+    color: var(--color-black);
     background-color: #f9f9f9;
-    color: #000000;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 400;
+}
+body::-webkit-scrollbar{
+    width: 15px;
+}
+body::-webkit-scrollbar-track{
+    background: var(--color-platinum);
+    border-left: 1px solid var(--color-platinum);
+}
+body::-webkit-scrollbar-thumb{
+    background: hsl(0,0%,80%);
+    border: 3px solid var(--color-platinum);
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background: hsl(0,0%,70%);
 }
 

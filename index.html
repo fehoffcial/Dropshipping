@@ -10,45 +10,55 @@
         <title></title>
     </head>
     <body class="body" id="body">
-
-        <header class="header-layout" id="header">
-            <div class="layout-header">
-                <div class="blue-layout"></div>
-            </div>
-            <div class="header-layout-top">
-                <div class="layout-logo">
-                    <span class="blue-logo">CASA</span><span class="red-logo">BRASS</span>
-                </div> 
-                <div class="header-layout-search">
-                    <input type="search" class="layout-search" name="" id="" placeholder="  O que você está procurando:">
-                    <button type="submit" class="layout-search-submit"><a href="http://" style="color: #525252;"><i class="fa-solid fa-magnifying-glass"></i></a></button>
-                </div>
-                <div class="header-layout-login">
-                    <div class="contry">
-                        <div class="contry-us">
-                            <img src="../Dropshipping/assets/img/united-kingdom.png" width="45px" style="margin-right: 10px;"  alt="United Kingdom">
-                            <img src="../Dropshipping/assets/img/brazil.png" width="45px" alt="">
-                        </div>
+        <!--- OVERLAY -->
+        <div class="overlay" data-overlay></div>
+        <!--- MODAL -->
+        <div class="modal closed" data-modal> <!-- ! ATENÇÃO ESTA COM CLOSED-->
+            <div class="modal-close-overlay" data-modal-overlay> 
+                <div class="modal-content">
+                    <button class="modal-close-btn" data-modal-close>
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <div class="newletter-img">
+                        <img src="./assets/img/gitlab.jpg" width="300" height="400" alt="Newletter">
+                    </div>
+                    <div class="newsletter">
+                        <form action="#" method="post" class="form-header">
+                            <div class="newsletter-header">
+                                <h3 class="newsletter-title">Se inscrever o <span class="blue" style="color: #2051c6;">CASA</span><span class="blue" style="color: #E64E38;">BRASS</span>.</h3>
+                                <p class="newletter-desc">
+                                    Assine o <b class="blue" style="font-style:italic">BRASS</b> para obter os produtos mais recentes e atualizações de descontos.
+                                </p>
+                            </div>
+                            <input type="email" name="email" id="email-faield" placeholder="Endereço de E-mail" required>
+                            <button type="submit" class="btn-newletter">Se inscrever</button>
+                        </form>
                     </div>
                 </div>
             </div>
-            <div class="header-layout-bottom">
-                <nav class="nav-menu-layout">
-                    <a href="http://" class="nav-layout-bars"><i class="fa-solid fa-bars"></i></a>
-                    <a href="http://" class="nav-layout-shop">COMPRE POR TODA LOJA</a>
-                    <a href="http://" class="nav-layout-telefone">TELEFONE</a>
-                    <a href="http://" class="nav-layout-eletro">ELETRODOMÉSTICOS</a>
-                    <a href="http://" class="nav-layout-tvs">TVS E VÍDEO</a>
-                    <a href="http://" class="nav-layout-portateis">ELETROPORTÁTEIS</a>
-                    <a href="http://" class="nav-layout-informatica">INFORMÁTICA</a>
-                    <a href="http://" class="nav-layout-serviço">SERVIÇO</a>
-                </nav>
+        </div>
+        <!--- NOTIFICATION TOAST -->
+        <div class="notification-toast closed" data-toast> <!-- ! ATENÇÃO ESTA COM CLOSED-->
+            <button class="toast-close-btn" data-toast-close>
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="toast-banner">
+                <img src="./assets/img/instagram.jpeg" alt="Nome do Produto" width="80" height="70"> <!--- >>> O Produto de Brinde  --->
             </div>
-            <div class="red-layout"></div>
-        </header>
-        <!-- END HEADER -->
+            <div class="toast-detail">
+                <p class="toast-title">
+                    Rose Gold Earrings
+                </p>
+                <p class="toast-meta">
+                    <time datatime="PT2M">2 Minutes</time> Ago
+                </p>
+                <p class="toast-message">
+                    Someone in new just bought
+                </p>
+            </div>
+        </div>
         <!-- JS CONFIG-->
         <script src="https://kit.fontawesome.com/e12001328a.js" crossorigin="anonymous"></script>
-        <script src="" crossorigin="anonymous"></script>
+        <script src="./assets/js/index.js" crossorigin="anonymous"></script>
     </body>
 </html>
