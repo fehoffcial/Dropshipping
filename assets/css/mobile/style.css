@@ -9,6 +9,9 @@
     .header-mobile{
         width: 100dvw;
         height: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
     }
     .header-top{
         width: 100%;
@@ -16,6 +19,8 @@
         background-color: var(--color-opacity);
         display: flex;
         align-items: center;
+        border-bottom: 1px solid #f1efeb;
+
     }
     .header-top-promotion{
         width: 50%;
@@ -68,6 +73,7 @@
         height: 35px;
         display: flex;
         flex-direction: row;
+        
     }
     .header-main-logo{
         min-width: 130px;
@@ -137,7 +143,10 @@
     .container-header-button{
         width: 80%;
         height: 100%;
-        background-color: seagreen;
+        border: 1px solid #f1efeb;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        background-color: var(--color-opacity);
     }
 }
 
