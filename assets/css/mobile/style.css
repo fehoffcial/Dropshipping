@@ -172,6 +172,26 @@
     .fa-solid:hover{
         color: #2051c6;
     }
+    .count{
+        width: 13px;
+        height: 13px;
+        color: #fff;
+        background-color: #e64e38;
+        border: 1 solid transparent;
+        border-radius: 100%;
+        margin-top: 5px;
+        position:absolute;
+        top: 1px    ;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+}
+    .count-p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     /* ! END HEADER BOTTOM  */
 
 }
