@@ -3,6 +3,8 @@ html{
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
     overscroll-behavior: contain;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 *,*::after,*::before{
     margin: 0%;
@@ -23,7 +25,7 @@ html{
     --color-sapphire: hsl(222,72,45);
     --color-cinnabar: hsl(8,78,56);
     --color-picton-blue: hsl(196,100,44);
-    --color-black: #000000;
+    --color-black: #1b1a1ae1;
     --color-opacity: #fcfcfc;
     --color-description: #6b6b6b;
     /* ? Tyrogrphy */
@@ -52,8 +54,13 @@ html{
 
 }
 body{
-    color: var(--color-black);
+    width: 110dvw;
+    height: 100dvh;
+    color: #000;
     background-color: #f9f9f9;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
 }
 body::-webkit-scrollbar{
     width: 15px;

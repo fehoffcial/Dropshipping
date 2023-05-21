@@ -10,57 +10,41 @@
         <title></title>
     </head>
     <body class="body" id="body">
-        <!--- OVERLAY -->
-        <div class="overlay" data-overlay></div>
-        <!--- MODAL -->
-        <div class="modal closed" data-modal> <!-- ! ATENÇÃO ESTA COM CLOSED-->
-            <div class="modal-close-overlay" data-modal-overlay> 
-                <div class="modal-content">
-                    <button class="modal-close-btn" data-modal-close>
-                        <i class="fa-solid fa-xmark"></i>
-                    </button>
-                    <div class="newletter-img">
-                        <img src="./assets/img/gitlab.jpg" width="300" height="400" alt="Newletter">
-                    </div>
-                    <div class="newsletter">
-                        <form action="#" method="post" class="form-header">
-                            <div class="newsletter-header">
-                                <h3 class="newsletter-title">Se inscrever o <span class="blue" style="color: #2051c6;">CASA</span><span class="blue" style="color: #E64E38;">BRASS</span>.</h3>
-                                <p class="newletter-desc">
-                                    Assine o <b class="color-blue">CASA</b><b class="color-red">BRASS</b> para obter os produtos mais recentes e atualizações de descontos.
-                                </p>
-                            </div>
-                            <input type="email" name="email" id="email-faield" placeholder="Endereço de E-mail" required>
-                            <button type="submit" class="btn-newletter">Se inscrever</button>
-                        </form>
+        <header class="header-mobile" id="header-mobile">
+            <div class="header-top">
+                <div class="header-top-promotion">
+                    <p class="header-top-title">Frete grátis esta semana acima - R$100</p>
+                </div>
+                <div class="header-top-option">
+                    <div class="container-header-top-option">
+                        <select class="header-top-options" id="currency">
+                            <option value="real" selected>BRL R&dollar;</option>
+                            <option value="en-FR">GBP &pound;</option>
+                            <option value="en-UK">USDT &dollar;</option>
+                            <option value="en-FR">Euro &euro;</option>
+                        </select>
+                        <select class="header-top-options">
+                            <option value="pt-BR" selected>Portuguese</option>
+                            <option value="en-UK">English</option>
+                            <option value="en-FR">Franc&#234;s</option>
+                            <option value="en-FR">Espanhol</option>
+                        </select>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--- NOTIFICATION TOAST -->
-        <div class="notification-toast closed" data-toast> <!-- ! ATENÇÃO ESTA COM CLOSED-->
-            <button class="toast-close-btn" data-toast-close>
-                <i class="fa-solid fa-xmark"></i>
-            </button>
-            <div class="toast-banner">
-                <img src="./assets/img/instagram.jpeg" alt="Nome do Produto" width="80" height="70"> <!--- >>> O Produto de Brinde  --->
+            <!-- ! END HEADER TOP -->
+            <div class="header-main">
+                <div class="header-main-logo">
+                    <h1 class="header-main-logotipo"><span class="header-main-blue">CASA</span><span class="header-main-red">BRASS</span></h1>
+                </div>
+                <div class="header-main-search">
+                    <input class="header-main-input-btn" type="search" name="" id="" placeholder="  O que você está procurando?">
+                    <input class="header-main-input-btn-submit" type="submit" value="OK">
+                </div>
             </div>
-            <div class="toast-detail">
-                <p class="toast-title">
-                    Rose Gold Earrings
-                </p>
-                <p class="toast-meta">
-                    <time datatime="PT2M">2 Minutes</time> Ago
-                </p>
-                <p class="toast-message">
-                    Someone in new just bought
-                </p>
-            </div>
-        </div>
-        <!--- HEADER -->
-
+        </header>
         <!-- JS CONFIG-->
         <script src="https://kit.fontawesome.com/e12001328a.js" crossorigin="anonymous"></script>
-        <script src="./assets/js/index.js" crossorigin="anonymous"></script>
+        <script src="" crossorigin="anonymous"></script>
     </body>
 </html>
