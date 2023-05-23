@@ -208,7 +208,11 @@
         align-items: center;
     }
     .header-mobile-menu-nav{
+        display: none;
+    }
+    .header-mobile-menu-nav.open{
 /*! */  /*position: absolute;*/  
+        display: flex;
         width: 95%;
         height: 100dvh;
         background-color: #fcfcfc;
