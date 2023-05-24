@@ -6,6 +6,9 @@
         display: flex;
         flex-direction: column;
     }
+    .header-layout{
+        display: none;
+    }
     .header-mobiles{
         display: flex;
         flex-direction: column;
