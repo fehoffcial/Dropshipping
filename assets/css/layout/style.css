@@ -9,12 +9,14 @@
   .header-layout{
     width: 100vw;
     height: 300px;
+    min-height: 290px;
     background-color: #f1efeb;
     display: flex;
     flex-direction: column;
   }
   .header-layout-sub-top{
     width: 100%;
+    height: 85px;
     min-height: 80px;
     font-size: 2.5rem;
   }
@@ -94,11 +96,115 @@
   }
   .header-layout-top{
     width: 100%;
+    height: 125px;
     min-height: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 5px;
   }
+  .header-layout-top-logo{
+    width: 400px;
+    min-width: 350px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-layout-top-logo-titles{
+    font-size: 6rem;
+    font-weight: 600;
+  }
+  .header-layout-top-color-blue{
+    color: #2051c6;
+  }
+  .header-layout-top-color-red{
+    color: #e64e38;
+    font-weight: 400;
+  }
+  .header-layout-top-search{
+    width: 40%;
+    min-width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-main-input-btn{
+    width: 80%;
+    height: 75%;
+    font-size: 3rem;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+  }
+  .header-main-input-submit{
+    width: 15%;
+    height: 75%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px solid #58585844;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+  .fa-magnifying-glass{
+    cursor: pointer;
+    font-size: 2.9rem;
+  }
+  .fa-magnifying-glass:hover{
+    color: #2051c6;
+  }
+  .header-layout-top-acconut{
+    width: 20%;
+    min-width: 17%;
+    height: 100%;
+  }
+  .header-layout-top-acconut-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fa-user{
+    margin-right: 25px;
+  }
+  .fa-bars{
+    margin-left: 25px;
+  }
+  .fa-user,.fa-cart-shopping,.fa-bars{
+    color: #333333b6;
+    font-size: 5.5rem;
+    cursor: pointer;
+  }
+  .fa-solid:hover{
+    color: #2051c6;
+  }
+
   .header-layout-bottom{
     width: 100%;
     height: 100%;
-    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-layout-sub-bootom-container-color-red{
+    width: 100%;
+    height: 4px;
+    min-height: 2px;
+    background-color: #e64e38;
+  }
+  .header-layout-bottom-menu{
+    width: 100%;
+    height: 100%;
+    background-color: #2051c6;
   }
 }
